@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jefferson Website</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/368f234f67.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+
+    <div id="container">
+<nav>
+    <img src="images/logo.png" class="logo">
+    <ul id="sidemenu">
+        
+        <li><a href="#header">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#education">EDUCATION BACKGROUND</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <i class="fas  fa-times" onclick="closemenu()"></i>
+    </ul>
+    <i class="fas fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class="header-text">
+    <p>BTLED ICT 3-B</p>
+    <h1> Hi, I'm <span>JEFF</span> <br> from Zamboanga City</h1>
+</div>
+</div>
+</div>
+<!-- -------------about-------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg" height="450" width="370">
+            </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">ABOUT ME</h2>
+                    <p>Good Day everyone, I am Jefferson Cariño, a 22 years old, recently residing at Campaner Zamboanga City, born in Tumahubong Sumisip Basilan Province  year November 21 2000, studying at ZSCMST taking Bachelor technology livelihood of Education major in Information and Communicaton Technology </p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('level')">LEVEL</p>
+                        <p class="tab-links" onclick=" opentab('plan')">PLAN</p>
+                        <p class="tab-links" onclick=" opentab('business')">BUSINESS</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="level">
+                        <ul>
+                            <li><span>1st year</span><br>(ZSCMST)S.Y. 2020-2021</li>
+                            <li><span>2nd year</span><br>(ZSCMST)S.Y. 2021-2022</li>
+                            <li><span>3rd year</span><br>(ZSCMST)S.Y. 2022-2023</li>
+                            <li><span>4rth year</span><br>(ZSCMST)SOON</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="plan">
+                        <ul>
+                            <li><span>Licence Professional Teacher</span><br>2024-2025</li>
+                            <li><span>Teaching</span><br>2026-2027</li>
+                            <li><span>Prof</span><br>2029-2030</li>
+                            <li><span>Principal</span><br>2038-2039</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="business">
+                        <ul>
+                            <li><span>year 2027</span><br>Groceries</li>
+                            <li><span>year 2030</span><br>Farm</li>
+                            <li><span>year 2036</span><br>Pharmacy</li>
+                            <li><span>year 2050</span><br>Investor</li>
+                        </ul>
+                    </div>
+                </div>
+</div>
+</div>
+</div>
+<!-- ------------education----------------- -->
+<div id="education">
+    <div class="container">
+        <h1 class="sub-title">EDUCATION BACKGROUND</h1>
+        <div class="Education-list">
+            <div>
+                <i class="fa-solid fa-school"></i>
+                <h1>PRIMARY EDUCATION</h1>
+                
+                   <br> <p>Tumahubong Elementary School</p><br><p>S.Y. 2013-2014</p>
+                   
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-school"></i>
+                <h1>SECONDARY EDUCATION</h1>
+                
+                   <br><p> Begang National High School</p><br><p>
+                    S.Y. 2017-2018</p>
+                    
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-school"></i>
+                <h1>SENIOR-HIGH EDUCATION</h1>
+                
+                   <br><p> Begang Senior High School</p><br><p>
+                    S.Y. 2019-2020</p>
+                    
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-school"></i>
+                <h1>TERTIARY EDUCATION</h1>
+                
+                    <br><p>Zamboanga State College of Marine Sciences Technology</p><br><p>
+                    S.Y. 2023-2024</p>
+                    
+                
+            </div>
+        </div>
+    </div>
+</div> <br>
+<!-- --------------contact------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME HERE</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>jeffersoncarino59@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09972938077</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/jefferson.carino.792"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/jeff_carino"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/jefferson.carino.792"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://ph.linkedin.com/in/jefferson-cari%C3%B1o-6a5334223?trk=public_profile_samename-profile"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                
+            </div>
+            
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Jefferson Cariño. Made with <i class="fas fa-heart"></i> by Owner Designer</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+
+var sidemeu = document.getElementById("sidemenu")
+
+function openmenu(){
+    sidemeu.style.right = "0";
+}
+function closemenu(){
+    sidemeu.style.right = "-200px";
+}
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwwTiKn34bzB7dNbyTvLOWb64BH_Vkgb2LCL3WWbzft5Ku5OtcqQ44voEGZcJ6JjVV_mA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
